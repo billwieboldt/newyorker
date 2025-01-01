@@ -1,1 +1,1 @@
-Bib New Yorker Stylesheet
+Bib New Yorker stylesheet created by user Interrobang.
