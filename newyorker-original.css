@@ -309,10 +309,10 @@ hr.sidebar_hr {
   margin: 1.5em 0;
   border-style: solid;
   border-width: 0 0 4px 0;
-  -webkit-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-      -ms-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-       -o-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-          border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
+  -webkit-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+      -ms-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+       -o-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+          border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
   opacity: 0.25;
   filter: alpha(opacity=25);
 }
@@ -1301,7 +1301,7 @@ tr[style="background-color: rgb(245, 245, 220);"] .taglist:last-of-type:before {
   padding: 20px 20px 0;
   margin: 50px 0 0;
   font-size: 0.85em;
-  background-image: url(../images/transparentbg/otis-redding.png);
+  background-image: url(../images/otis-redding.png);
   background-color: rgb(234, 234, 234);
   border-radius: 5px 5px 0 0;
   font-family: Neutra, Neutraface, sans-serif;
@@ -1513,7 +1513,7 @@ td.Ffield input[type="text"][size="10"] {
 .table_div table thead,
 .table_div table tfoot {
   color: rgba(255, 255, 255, 0.75);
-  background-image: url(../images/transparentbg/otis-redding.png);
+  background-image: url(../images/otis-redding.png);
   background-color: rgb(49, 66, 82);
 }
 
@@ -1656,10 +1656,10 @@ table.comment .comment_header {
   clear: both;
   border-style: solid;
   border-width: 0 0 3px 0;
-  -ms-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-  -webkit-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-  -o-border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
-  border-image: url("../images/drawn-rule-horiz-Nav.png") 0 0 3 0 repeat;
+  -ms-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+  -webkit-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+  -o-border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
+  border-image: url("../images/drawn-rule-horiz-nav.png") 0 0 3 0 repeat;
 }
 
 .postInfo > span,
@@ -2331,59 +2331,59 @@ img[src="/static/icons/view.png"] {
 }
 
 img#formatMarkEPUB {
-  content: url(//bolditalic.org/images/filetypes/ny/epub.png);
+  content: url(//bolditalic.org/images/filetypes/epub.png);
 }
 
 img#formatMarkPDF {
-  content: url(//bolditalic.org/images/filetypes/ny/pdf.png);
+  content: url(//bolditalic.org/images/filetypes/pdf.png);
 }
 
 img#formatMarkAZW3 {
-  content: url(//bolditalic.org/images/filetypes/ny/azw3.png);
+  content: url(//bolditalic.org/images/filetypes/azw3.png);
 }
 
 img#formatMarkMOBI {
-  content: url(//bolditalic.org/images/filetypes/ny/mobi.png);
+  content: url(//bolditalic.org/images/filetypes/mobi.png);
 }
 
 img#formatMarkDJVU {
-  content: url(//bolditalic.org/images/filetypes/ny/djvu.png);
+  content: url(//bolditalic.org/images/filetypes/djvu.png);
 }
 
 img#formatMarkCBR {
-  content: url(//bolditalic.org/images/filetypes/ny/cbr.png);
+  content: url(//bolditalic.org/images/filetypes/cbr.png);
 }
 
 img#formatMarkCBZ {
-  content: url(//bolditalic.org/images/filetypes/ny/cbz.png);
+  content: url(//bolditalic.org/images/filetypes/cbz.png);
 }
 
 img#formatMarkMP3 {
-  content: url(//bolditalic.org/images/filetypes/ny/mp3.png);
+  content: url(//bolditalic.org/images/filetypes/mp3.png);
 }
 
 img#formatMarkM4A {
-  content: url(//bolditalic.org/images/filetypes/ny/m4a.png);
+  content: url(//bolditalic.org/images/filetypes/m4a.png);
 }
 
 img#formatMarkM4B {
-  content: url(//bolditalic.org/images/filetypes/ny/m4b.png);
+  content: url(//bolditalic.org/images/filetypes/m4b.png);
 }
 
 img#formatMarkFLAC {
-  content: url(//bolditalic.org/images/filetypes/ny/flac.png);
+  content: url(//bolditalic.org/images/filetypes/flac.png);
 }
 
 img#formatMarkSPX {
-  content: url(//bolditalic.org/images/filetypes/ny/spx.png);
+  content: url(//bolditalic.org/images/filetypes/spx.png);
 }
 
 img#formatMarkTXT {
-  content: url(//bolditalic.org/images/filetypes/ny/txt.png);
+  content: url(//bolditalic.org/images/filetypes/txt.png);
 }
 
 img#formatMarkCHM {
-  content: url(//bolditalic.org/images/filetypes/ny/chm.png);
+  content: url(//bolditalic.org/images/filetypes/chm.png);
 }
 
 #gallery li:hover .formatMark,
@@ -2400,52 +2400,52 @@ img[src$="reading.svg"] {
 .forumPost[id$="0"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="0"] .comment_avatar img[src$="reading.svg"]
  {
-  content: url(../images/ny-cartoons/0.jpg);
+  content: url(../images/cartoons/0.jpg);
 }
 
 .forumPost[id$="1"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="1"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/1.jpg);
+  content: url(../images/cartoons/1.jpg);
 }
 
 .forumPost[id$="2"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="2"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/2.gif);
+  content: url(../images/cartoons/2.jpg);
 }
 
 .forumPost[id$="3"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="3"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/3.jpg);
+  content: url(../images/cartoons/3.jpg);
 }
 
 .forumPost[id$="4"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="4"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/4.jpg);
+  content: url(../images/cartoons/4.jpg);
 }
 
 .forumPost[id$="5"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="5"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/5.jpg);
+  content: url(../images/cartoons/5.jpg);
 }
 
 .forumPost[id$="6"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="6"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/6.jpg);
+  content: url(../images/cartoons/6.jpg);
 }
 
 .forumPost[id$="7"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="7"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/7.jpg);
+  content: url(../images/cartoons/7.jpg);
 }
 
 .forumPost[id$="8"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="8"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/8.jpg);
+  content: url(../images/cartoons/8.jpg);
 }
 
 .forumPost[id$="9"] .forumAvatar img[src$="reading.svg"],
 table.comment[id$="9"] .comment_avatar img[src$="reading.svg"] {
-  content: url(../images/ny-cartoons/9.jpg);
+  content: url(../images/cartoons/9.jpg);
 }
 
 
@@ -2810,10 +2810,10 @@ table.comment[id$="9"] .comment_avatar img[src$="reading.svg"] {
     min-height: 0;
     border-width: 3px 0 0;
     border-style: solid;
-    -ms-border-image: url("../images/drawn-rule-horiz-Nav.png") 3 0 0 0 repeat;
-    -webkit-border-image: url("../images/drawn-rule-horiz-Nav.png") 3 0 0 0 repeat;
-    -o-border-image: url("../images/drawn-rule-horiz-Nav.png") 3 0 0 0 repeat;
-    border-image: url("../images/drawn-rule-horiz-Nav.png") 3 0 0 0 repeat;
+    -ms-border-image: url("../images/drawn-rule-horiz-nav.png") 3 0 0 0 repeat;
+    -webkit-border-image: url("../images/drawn-rule-horiz-nav.png") 3 0 0 0 repeat;
+    -o-border-image: url("../images/drawn-rule-horiz-nav.png") 3 0 0 0 repeat;
+    border-image: url("../images/drawn-rule-horiz-nav.png") 3 0 0 0 repeat;
     overflow-x: auto;
   }
   .postInfo span:first-of-type,
