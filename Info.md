@@ -1,4 +1,4 @@
-# New Yorker Stylesheet
+## New Yorker Stylesheet
 
 New Yorker was originally going to be solely based on the type and colors from The New Yorker, but then I went a little overboard. This stylesheet is responsive; resize your browser or visit on your phone and you won't be stuck with a fixed-width experience.
 
